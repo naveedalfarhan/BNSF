@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1495626988122.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "37032673",
+    "lastKnownWriteTime" : 8389754659302220320,
+    "last_content_update" : 1495626988122,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "FB4C1762",
+        "caption" : "East",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=East&cache_key=FB4C1762",
+        "displayedObservations" : 491,
+        "environment" : "",
+        "object" : "East",
+        "preview" : 0,
+        "totalObservations" : 491,
+        "variables" : 3
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

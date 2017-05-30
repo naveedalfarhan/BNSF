@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1495626931731.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "7D757E6C",
+    "lastKnownWriteTime" : 8029185115217552484,
+    "last_content_update" : 1495626931731,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "B27A6B1",
+        "caption" : "AddedRemovedTrains",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=AddedRemovedTrains&cache_key=B27A6B1",
+        "displayedObservations" : 162,
+        "environment" : "",
+        "object" : "AddedRemovedTrains",
+        "preview" : 0,
+        "totalObservations" : 162,
+        "variables" : 153
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
