@@ -1,8 +1,7 @@
-library("sqldf")
-library("lubridate")
-library("dplyr")
-library('stringr')
 library(sqldf)
+library(lubridate)
+library(dplyr)
+library(stringr)
 library(chron)
 library(tidyr)
 library(ggplot2)
@@ -12,7 +11,7 @@ library(xts)
 library(ranger)
 library(caret)
 
-setwd("C:/Users/ankur.sharma/Desktop/BNSF/NewData/+3 N_W")
+setwd("C:/BNSF/Git Repository/Schedule Prediction/Needles-Winslow")
 
 # Creating empty dataframe for all 3 case +1,+2,+3
 Bucket=setNames(data.frame(matrix(ncol = 6, nrow = 0)), c('0-4', '4-8', '8-12', '12-16', '16-20', '20-24'))
@@ -116,7 +115,7 @@ if (day==7)
 #####################################################################################################################################
 
 for (f in 1:length(dirnames)){
-  dir=paste0("C:/Users/ankur.sharma/Desktop/BNSF/NewData/All Active Schedules/",dirnames[f],"/oq.tact_sch_stn")
+  dir=paste0("C:/BNSF/Active Data/",dirnames[f],"/oq.tact_sch_stn")
   Actv_Schd <- read.csv(dir,sep ="\t")
   
   Actv_Schd_nee_win= sqldf("Select a.*,b.* from (select * from Actv_Schd where STN_ST IN ('CA') and
